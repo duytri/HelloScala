@@ -11,5 +11,6 @@ object HelloScala {
     println(setExample.product)
     println()
     setExample foreach { var re = 1; x => re = re * x; println(re)}
+    println("Hello Scala!")
   }
 }
